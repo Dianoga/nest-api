@@ -149,6 +149,7 @@ class Nest {
                 'heat' => $this->last_status->shared->{$serial_number}->hvac_heater_state,
                 'alt_heat' => $this->last_status->shared->{$serial_number}->hvac_alt_heat_state,
                 'fan' => $this->last_status->shared->{$serial_number}->hvac_fan_state,
+                'fan_mode' => $this->last_status->device->{$serial_number}->fan_mode,
                 'auto_away' => $this->last_status->shared->{$serial_number}->auto_away,
                 'manual_away' => $manual_away,
                 'leaf' => $this->last_status->device->{$serial_number}->leaf,
